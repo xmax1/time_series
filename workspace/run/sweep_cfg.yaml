@@ -1,0 +1,12 @@
+
+batch_size: [32,]
+lr: [0.01, 0.001]
+n_conv: [1, 2, 3]
+af: ['relu', 'leaky_relu']  # activation function
+n_layers: [2, 3, 4]
+kernel_size: [3, 7]
+n_epochs: [1000,]
+wandb: ['True',]
+
+
+seed: [1, 2, 3]  # always comes last, for neatness in running order :)
